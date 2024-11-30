@@ -1,0 +1,70 @@
+body{
+    background-color:white !important;
+}
+.navbar{
+    background-color:#041021;
+    width:100%;
+    font-size: large;
+    position: fixed;
+    top: 0px;
+    opacity:1;
+    z-index: 1;
+    color: white;
+    text-align: left;
+    border-radius: 4px;
+    display: flex;
+}
+.title{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white !important;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    background-color: white;
+    margin-left:73%;
+  margin-top: 19px;
+  margin-bottom: 19px;
+  color:  #36412F;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.prourl{
+    height: 30px !important;
+    width: 30px !important;
+    margin-top: 13px;
+    border-radius: 12px !important;
+    border: 2px solid gray;
+
+}
+.dropdown{
+    /* background-color: #36412fda; */
+    background-color:#041021;
+    z-index: 2;
+    width: 150px;
+    margin-left: 92.5%;
+    color: white;
+    position: fixed;
+    top: 90px;
+    right: 20px;
+    border-radius: 5px;
+}
+.admindash{
+    font-size:6px !important;
+}
+.list{
+    color: azure;
+    text-decoration: none;
+    font-size: large;
+}
+.list:hover{
+    font-size: larger;
+}
+.profileimg{
+    width:40px ;
+    height: 40px;
+}
+

@@ -1,0 +1,76 @@
+:root {
+    --main-color: #041021;
+}
+
+html {
+    background-color:var(--main-color) !important;
+}
+a.loglink {
+    text-decoration: none;
+}
+.body {
+    background-color: var(--main-color);
+    height:600px !important;
+    padding-top: 100px !important;
+}
+
+.login {
+    border: none;
+    background-color:white;
+    margin-top:100px;
+    width: 280px;
+    height: 310px;
+    height: 31  0px;
+    margin-left: 40%;
+    border-radius: 4px;
+    padding-left:10px;
+}
+
+.loglink{
+    font-size: smaller;
+    color: var(--main-color) !important;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.log{
+    width: 230px;
+    height: 20px;
+    margin-bottom: 0px !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.logbtn{
+    background-color: var(--main-color);
+    padding-right: 10px;
+    color: white;
+    width: 81%;
+    padding: 10px 0px;
+    margin: 0px 10px 5px 0px; 
+    border-radius: 3px; 
+    border: none;
+}
+
+.regbtn{
+    margin: 15px 10px 5px 0px;
+    background-color: var(--main-color);
+    padding: 10px 0px;
+    color: white;
+    width: 81%;
+    border-radius: 3px;
+    border: none;
+}
+
+.revive{
+    padding: 15px 0px 0px 0px;
+    margin-top: 10px;
+    margin-bottom:0px!important;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.logtitle{
+    color:rgba(0, 0, 0, 0.429);
+}

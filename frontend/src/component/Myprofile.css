@@ -1,0 +1,104 @@
+
+.update{
+    border: 2px solid gray;
+    background-color: white;
+    height: 189px;
+    width: 285px;
+    position: fixed;
+    top: 101px;
+    left: 42%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+#upload{
+  width:10px!important;
+}
+input.upload{
+    border: 2px solid gray !important;
+    width: 200px !important;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.photo {
+    padding: 17px;
+    margin-top: 200px;
+    height: 32rem;
+    background-color: rgb(255, 255, 255);
+}
+.up{
+    color: black !important;
+}
+.image{
+    margin-top: -60px;
+    border: 5px solid white ;
+    border-radius: 50%;
+}
+form.profileupform{
+    border: 2px solid gray;
+    background-color: white;
+    width: 505px !important;
+    position: fixed;
+    top: 70px;
+    left: 30%;
+    text-align: center;
+    border-radius: 10px
+}
+input.upuser{
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-left: 10px;
+    width: 433px !important;
+}
+.uplaodbtn{
+    background-color: rgb(3, 90, 149);
+    color: white;
+    font-size: 13px;
+    padding: 7px 12px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 7px;
+    margin-top: 20px;
+}
+.uplaodbtn:hover{
+    color: white;
+    background-color: var(--main-color);
+    transition: all 0.5s;
+}
+
+/* //loader */
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 40px;
+    aspect-ratio: 1;
+    position: fixed;
+    top:50%;
+    left:50%;
+  }
+  .loader:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    --c:#0000, black 1deg 120deg,#0000 121deg;
+    background:
+      conic-gradient(from 0deg,  var(--c)) top right,
+      conic-gradient(from 120deg,var(--c)) bottom,
+      conic-gradient(from 240deg,var(--c)) top left;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    animation: l25 2s infinite cubic-bezier(0.3,1,0,1);
+  }
+  @keyframes l25 {
+     33%  {inset:-8px;transform: rotate(0deg)}
+     66%  {inset:-8px;transform: rotate(180deg)}
+     100% {inset:0   ;transform: rotate(180deg)}
+  }
+   .loadtime{
+    opacity: 0.1 !important;
+   }
+   

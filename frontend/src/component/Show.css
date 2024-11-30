@@ -1,0 +1,163 @@
+.bidform{
+  z-index: 2;
+  border: 2px solid gray;
+  background-color: rgba(255, 255, 255, 0.89);
+  height: 350px;
+  width:800px;
+  position: fixed;
+  top: 70px;
+  left: 23%;
+  text-align: center;
+  border-radius: 4px;
+  border-radius: 20px;
+}
+input{
+  width:400px;
+  height: 50px;
+  margin-top: 30px;
+  margin-right: 10px;
+  border: 2px soid black;
+}
+.grid-container {
+    margin-top: 100px;
+    width: 2000px;;
+    display: grid;
+    grid-template-columns:960px 1000px;
+    color: rgba(0, 0, 0, 0.521);
+    font-size: 14px !important;
+  }
+  .grid-container > div {
+    text-align:left;
+    padding: 15px 0;
+    width: 400px;
+    font-size: 20px !important;
+
+  }  
+  .detailsdata{
+    text-align: left !important;
+  }
+  .nametitle{
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .bidbtn{
+    background-color: rgba(0, 0, 0, 0.657);
+    color: white;
+  }
+
+  .img{
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 460px !important;
+    width: 800px !important;
+    object-fit: contain;
+    object-position: center;
+  }
+  .img1{
+    margin-top: 50px;
+    margin-left: 50px;
+    height:100px !important;
+    width: 100px !important;
+  }
+.img1:hover{
+  border: 2px solid black;
+}
+  .date{
+    color: rgba(0, 0, 0, 0.521);
+    margin-left: 50px;
+    font-size: 20px;
+  }
+
+
+  /* CSS */
+  .newbids {
+    align-items: center;
+    appearance: none;
+    background-color: #d8e9ff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+  }
+  
+  .newbids:hover {
+    background: #F6F9FE;
+    color: #174ea6;
+  }
+  
+  .newbids:active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+  }
+  
+  .newbids:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+  }
+  
+  .newbids:not(:disabled) {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+  .newbids:not(:disabled):hover {
+    box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+  }
+  
+  .newbids:not(:disabled):focus {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+  .newbids:not(:disabled):active {
+    box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+  }
+  
+  .newbids:disabled {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+
+
+  
+  /* .newbids{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    font-size: large;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  .newbids:hover{
+    font-size: larger;
+
+  } */
+.show-product-sub-titile{
+  font-size: 20px;
+  margin: 22px 0px 20px 0px;
+}
+.show-product-text{
+  margin: 8px 0px;
+  font-size: 18px;
+}

@@ -1,0 +1,347 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #4A4A4A; /* General Text Color */
+  background-color: #FFFFFF; /* Background Color */
+  text-align: center !important;
+}
+
+
+.form{
+    border: 2px solid gray;
+    background-color: white;
+    width:700px;
+    position: fixed;
+    top: 70px;
+    left: 30%;
+    text-align: center;
+    border-radius: 4px;
+    z-index: 2;
+}
+input{
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-left: 10px;
+    width: 595px;
+}
+
+
+/* CSS */
+.button-68, .updatebtn {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae40;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .55) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 6px 25px;
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-68:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-68:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-68:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+
+textarea{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 590px;
+  height: 30px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+#catagory{
+  width:610px;
+  height: 30px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.alert{
+  color: blue;
+}
+.table{
+  border: 2px solid hsla(0, 0%, 50%, 0.09);
+  border-radius: 10px;
+  margin-top: 170px !important;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+
+}
+table {
+  border: 2px solid hsla(0, 0%, 50%, 0.499);
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse !important;
+    width: 100%;
+    background-color: #FFFFFF; /* Table Row Background */
+
+  }
+  .opcity {
+    opacity:0.3;
+  }
+  .p{
+    font-size:30px !important;
+    margin-bottom: 0% !important;
+    margin-top: 0% !important;
+    margin-right: 0% !important;
+    padding-left: 95% !important;
+  }
+  .p:hover{
+    cursor: pointer;
+  }
+  th {
+    color: #424242; /* Charcoal Gray for Table Headers */
+    background-color: #F5F5F5; /* Light Background for Header Row */
+    padding: 10px;
+    text-align: center !important;
+    border-bottom: 1px solid #E0E0E0;
+}
+.formimg{
+  height: 50px !important;
+  width: 50px !important;
+}
+td {
+    color: #4A4A4A; /* Dark Gray for Table Content Text */
+    padding: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+  tr:nth-child(odd) {
+    background-color: #F5F5F5; /* Light Background for Header Row */
+
+  }
+  .bidshows{
+    color: #140c37;
+  }
+  .bidshows:hover{
+    color: #4d29f1;
+    cursor: pointer;
+  }
+  .input{
+   width: 50px;
+  }
+  
+  .myStyle{
+    display: none !important;
+  }
+
+
+  /* CSS */
+  .button-24 {
+    margin-top: 10px;
+    margin-left: 90%;
+    margin-bottom: 10px;
+    background: rgb(4, 11, 50);
+    border: 1px solid rgb(4, 11, 50);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .button-24:hover,
+  .button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: rgb(4, 11, 50)
+  }
+  
+  .button-24:active {
+    opacity: .5;
+  }
+
+  
+  .editbtn {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #4090ff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #4090ff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 10px;
+    min-width: 0;
+    outline: none;
+    padding: 4.5px 15px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+  }
+  
+  .editbtn:disabled {
+    pointer-events: none;
+  }
+  
+  .editbtn:hover {
+    color: #fff;
+    background-color: #4090ff;
+  }
+  
+  .editbtn:active {
+    box-shadow: none;
+  }
+
+  .promote-btn {
+    margin-right: 0px;
+    align-items: center;
+    background-color: #0bae1e;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 30px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px 10px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .promote-btn:hover,
+  .promote-btn:focus { 
+    background-color: #006b1d;
+    color: #ffffff;
+  }
+  
+  .promote-btn:active {
+    background: #093b0c;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  .promote-btn:disabled, .deletebtn:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }
+
+
+/* CSS */
+.deletebtn {
+  align-items: center;
+  background-color: #ae0b0b;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  height: 30px;
+  width: 70px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.deletebtn:hover,
+.deletebtn:focus { 
+  background-color: #6b0000;
+  color: #ffffff;
+}
+
+.deletebtn:active {
+  background: #3b0909;
+  color: rgb(255, 255, 255, .7);
+}
+
+  h4{
+    margin-bottom: -5% !important;
+  }
+  .header{
+    color: var(--main-color);
+    margin-top: 95px !important;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom:-10% !important;
+  }
+
+.action-btns{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  row-gap: 10px;
+}

@@ -1,0 +1,68 @@
+.count{
+    display: flex;
+    margin-left:240px;
+    margin-right:39px;
+}
+.co1{
+    width:30%;
+    background-color:#041021;
+    color:white;
+    border-radius:20px;
+}
+.co1:hover{
+    opacity: 0.7;
+    border: 2px solid white;
+    border-radius:10px;
+
+}
+.adminbord{
+    color: white;
+    background-color:whitesmoke;
+}
+.dashdata{
+    /* padding-top: 50px !important; */
+    border: 2px solid white;
+    margin-left:240px;
+    text-align: center !important;
+    width:81%;
+    height: 400px;
+    background-color:#041021;
+    border-radius:10px;
+    overflow-y: scroll;
+    border: 2px solid #041021;
+}
+.adminnav{
+    background-color:#041021;
+    position: fixed;
+    top: 10%;
+    width: 221px;
+    height: 650px;
+    text-align: center;
+    border-radius: 5px;
+}
+h1.adminwordtitle{
+    color: white;
+    text-align: center;
+    background-color: #041021;
+    height: 69px;
+    width: 100%;
+    margin-top: -12px !important;
+    margin-left: -1px !important;
+    border: 2px solid #041021;
+    border-radius: -1px;
+}
+.l12{
+    color:white;
+    font-size:large;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.l12:hover{
+    color: aliceblue;
+    font-size:medium;
+
+}
+.sidetitle{
+    background-color:#041021;
+    color: white;
+}
